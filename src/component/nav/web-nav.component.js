@@ -24,10 +24,10 @@ export default function WebNavigation() {
 
             <div className="md:items-center md:w-auto flex justify-end">
                 <div className="md:flex hidden">
-                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/home">Home</a>
-                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/blog">Blog</a>
-                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/projects">Project</a>
-                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/contact">Contact</a>
+                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/#/home">Home</a>
+                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/#/blog">Blog</a>
+                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/#/projects">Project</a>
+                    <a className="block md:text-gray-600 dark:text-white mr-4" href="/#/contact">Contact</a>
 
                 </div>
                 <div className="flex">
