@@ -9,9 +9,9 @@ import { Videos } from './component/videos.component';
 export default function HomePage() {
 
     return (
-        <div className="container mx-auto px-10">
+        <div className="bg-primary-light dark:bg-primary-dark min-w-full max-w-screen-xl xl:pt-16 pb-8 p-10 xl:p-14">
             <Greeting/>
-            <SectionDivider title="Experiences"/>
+            <SectionDivider title="Experiences &amp; education"/>
             <Experiences/>
             <SectionDivider title="Articles"/>
             <Articles/>

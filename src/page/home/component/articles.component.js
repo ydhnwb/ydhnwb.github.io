@@ -5,7 +5,7 @@ export const Articles = () => {
         <div>
             <h3 className="text-justify text-gray-800 dark:text-white">I have written some articles in <a target="_blank" className="font-bold text-gray-800 dark:text-white" href="https://ydhnwb.medium.com">medium.com </a>
             but also wrote my thought and opinion on <a target="_blank" className="font-bold text-gray-800 dark:text-white" href="https://ydhnwb.gitbook.io">my personal blog.</a> If you want to see all my articles you can 
-            go to <a className="font-bold text-gray-800 dark:text-white" href="/blog">blog page here</a>.</h3>
+            go to <a className="font-bold text-gray-800 dark:text-white" href="/#/blog">blog page here</a>.</h3>
             <div onClick={() => { window.open("https://medium.com/plugin-id/mengupas-redux-pada-react-khususnya-react-native-5a0524a9ee31", "_blank") }} className="cursor-pointer">
                 <div className="m-4">
                     <div className="flex flex-row items-center">

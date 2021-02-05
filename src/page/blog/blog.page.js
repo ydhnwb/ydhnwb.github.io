@@ -1,7 +1,7 @@
 export default function BlogPage() {
     return (
-        <div className="container mx-auto p-16">
-            <h1 className="text-4xl font-semi-bold text-gray-800 mb-8 dark:text-white">blog post</h1>
+        <div className="bg-primary-light dark:bg-primary-dark min-w-full max-w-screen-xl xl:p-16 xl:pt-16 pb-8 p-10">
+            <h1 className="mt-16 text-4xl font-semi-bold text-gray-800 mb-8 dark:text-white">blog post</h1>
             <div onClick={() => { window.open("https://medium.com/plugin-id/mengupas-redux-pada-react-khususnya-react-native-5a0524a9ee31", "_blank") }} className="cursor-pointer">
                 <div className="my-4">
                     <div className="flex flex-row items-center">
@@ -47,17 +47,7 @@ export default function BlogPage() {
                     </div>
                 </div>
             </div>
-            <div onClick={() => { window.open("https://ydhnwb.gitbook.io/blog/journals/2020/manajemen-proyek-murah-dan-powerful", "_blank") }} className="cursor-pointer">
-                <div className="my-4">
-                    <div className="flex flex-row items-center">
-                        <img alt="" className="rounded-full" src="https://gblobscdn.gitbook.com/spaces%2F-M7kxipJ5Gr143HKcjxX%2Favatar-1589963326239.png?alt=media" width={42} height={42} />
-                        <div className="ml-4 flex flex-col">
-                            <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Manajemen Proyek Murah dan Powerful</h1>
-                            <p className="text-sm text-gray-600 font-bold dark:text-white">June 2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div onClick={() => { window.open("https://medium.com/plugin-id/managing-ui-state-menggunakan-kotlin-sealed-class-pada-mvvm-pattern-di-android-108934db1892", "_blank") }} className="cursor-pointer">
                 <div className="my-4">
                     <div className="flex flex-row items-center">

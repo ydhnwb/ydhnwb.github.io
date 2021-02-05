@@ -1,7 +1,7 @@
 export default function ProjectPage() {
     return (
-        <div className="container mx-auto p-16">
-            <h1 className="text-4xl font-semi-bold text-gray-800 mb-8 dark:text-white">projects</h1>
+        <div className="bg-primary-light dark:bg-primary-dark min-w-full max-w-screen-xl xl:p-16 xl:pt-16 pb-8 p-10">
+            <h1 className="text-4xl mt-16 font-semi-bold text-gray-800 mb-8 dark:text-white">projects</h1>
             <div>
                 <div className="my-4">
                     <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Yotei: Personal Achievement And Target With Kanban Style</h1>

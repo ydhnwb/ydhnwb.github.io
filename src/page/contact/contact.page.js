@@ -1,7 +1,7 @@
 export default function ContactPage(){
     return (
-        <div className="container mx-auto p-16">
-            <h1 className="text-4xl font-semi-bold text-gray-800 mb-8 dark:text-white">reach me</h1>
+        <div className="bg-primary-light dark:bg-primary-dark min-w-full max-w-screen-xl xl:p-16 xl:pt-16 pb-8 p-10">
+            <h1 className="text-4xl mt-16 font-semi-bold text-gray-800 mb-8 dark:text-white">reach me</h1>
             <div onClick={() => { window.open("mailto:akaditasustono@gmail.com") }} className="cursor-pointer">
                 <div className="my-4">
                     <div className="flex flex-row items-center">

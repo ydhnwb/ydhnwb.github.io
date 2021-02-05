@@ -1,9 +1,9 @@
 import './App.css';
 import './assets/output.css'
 import { AppThemeContext } from './ThemeContext';
-import { BrowserRouter, HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import { useContext, useEffect } from 'react';
-import { Navbar } from './component/nav/NavbarTop';
+import Header from './component/layout/header.component';
 import HomePage from './page/home/home.page';
 import { Footer } from './../src/component/footer/Footer';
 import BlogPage from './page/blog/blog.page';
@@ -22,34 +22,31 @@ function App() {
   }, [])
 
   return (
-    <div className="bg-primary-white dark:bg-primary-dark flex flex-col h-screen">
-      <title>Prieyudha Akadita S</title>
-      <div className="flex-1 overflow-y-auto">
-        <HashRouter>
-          <Navbar />
-          <Switch>
-            <Route exact path="/">
-              <HomePage />
-            </Route>
-            <Route path="/home">
-              <HomePage />
-            </Route>
-            <Route path="/blog">
-              <BlogPage/>
-            </Route>
-            <Route path="/projects">
-              <ProjectPage/>
-            </Route>
-            <Route path="/contact">
-              <ContactPage/>
-            </Route>
-          </Switch>
-        </HashRouter>
+    <>
+      <HashRouter>
+        <Header />
+        <Switch>
+          <Route exact path="/">
+            <HomePage />
+          </Route>
+          <Route path="/home">
+            <HomePage />
+          </Route>
+          <Route path="/blog">
+            <BlogPage />
+          </Route>
+          <Route path="/projects">
+            <ProjectPage />
+          </Route>
+          <Route path="/contact">
+            <ContactPage />
+          </Route>
+        </Switch>
         <Footer/>
-      </div>
 
-    </div>
+      </HashRouter>
 
+    </>
   );
 }
 

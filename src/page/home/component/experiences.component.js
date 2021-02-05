@@ -9,7 +9,7 @@ export const Experiences = () => {
                 <div className="flex flex-row items-center">
                     <img alt="" className="rounded-full" src={refactory} width={42} height={42} />
                     <div className="ml-4 flex flex-col">
-                        <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Fullstack Developer Staff @ Refactory.id</h1>
+                        <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Software Engineer @ Refactory.id</h1>
                         <p className="text-sm text-gray-600 font-bold dark:text-white">2020 - Present</p>
                     </div>
 
@@ -20,11 +20,35 @@ export const Experiences = () => {
                     <img alt="" className="rounded-full" src="https://glints.com/sg/hired/wp-content/uploads/2018/04/star-glints.png" width={42} height={42} />
                     <div className="ml-4 flex flex-col">
                         <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Industrial Trainer React Native Class @ Glints</h1>
-                        <p className="text-sm text-gray-600 font-bold dark:text-white">Dec 2020 - March 2021</p>
+                        <p className="text-sm text-gray-600 font-bold dark:text-white">Dec 2020 - Feb 2021</p>
                     </div>
                     
                 </div>
             </div>
+
+
+            <div className="m-4">
+                <div className="flex flex-row items-center">
+                    <img alt="" className="rounded-full" src="https://glints.com/sg/hired/wp-content/uploads/2018/04/star-glints.png" width={42} height={42} />
+                    <div className="ml-4 flex flex-col">
+                        <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">React Native Bootcamp Student @ Glints x Binar Academy</h1>
+                        <p className="text-sm text-gray-600 font-bold dark:text-white">Aug 2020 - Nov 2020</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div className="m-4">
+                <div className="flex flex-row items-center">
+                    <img alt="" className="rounded-full" src="https://pbs.twimg.com/profile_images/1281441751270453248/MwLLFhhe_400x400.jpg" width={42} height={42} />
+                    <div className="ml-4 flex flex-col">
+                        <h1 className="text-md font-semi-bold text-gray-800 dark:text-white">Diploma IV - Informatic Engineering @ Politeknik Harapan Bersama Tegal</h1>
+                        <p className="text-sm text-gray-600 font-bold dark:text-white">Sept 2016- Oct 2020</p>
+                    </div>
+                    
+                </div>
+            </div>
+
             <div className="m-4">
                 <div className="flex flex-row items-center">
                     <img alt="" className="rounded-full" src={comeapp} width={42} height={42} />

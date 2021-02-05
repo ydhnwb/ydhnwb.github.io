@@ -5,16 +5,16 @@ export const Footer = () => {
         return year
     }
     return (
-        <div className="p-14 mt-14 flex flex-col bg-primary-dark">
+        <div className="bg-primary-light dark:bg-primary-dark p-4 pt-16 pb-16 flex flex-col">
             <div className="flex flex-row justify-around">
                 <div className="m-4">
-                    <h1 className="text-md text-justify text-white">Made by Prieyudha Akadita S</h1>
-                    <h1 className="text-md text-justify text-white font-extralight">Using React JS and Tailwind CSS v2</h1>
-                    <h1 className="text-md text-justify text-white">Copyright {getYear()}</h1>
+                    <h1 className="text-sm text-justify  text-gray-800 dark:text-white">Made by Prieyudha Akadita S</h1>
+                    <h1 className="text-sm text-justify text-gray-800 dark:text-white font-extralight">Using React JS and Tailwind CSS v2</h1>
+
                 </div>
                 <div className="m-4">
-                    <h1 className="text-md text-justify text-white">This webpage is hosted at github</h1>
-                    <h1 className="text-md text-justify text-white font-extralight">You are allowed to download or modify this web page :)</h1>
+                    <h1 className="text-sm text-justify  text-gray-800 dark:text-white">Copyright {getYear()}</h1>
+                    <h1 className="text-sm text-justify text-gray-800 dark:text-white font-extralight">Hosted on github</h1>
                 </div>
 
             </div>
